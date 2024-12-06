@@ -18,7 +18,7 @@ I created an interactive and responsive landing page about the Winter Solstice
 
 **Step 1: Styling the navbar and footer**
 
-I started with using flexbox to style the navigation bar and footer and using a media query to stack up the navigation links on smaller screens.
+I used css grid for the overall page and css flexbox to layout the links in the navigation bar. Finally I used a media query to stack up the navigation links when displayed on smaller screens.
 
 It was interesting learning the importance of this viewport meta tag to make the page responsive
 
@@ -26,8 +26,12 @@ It was interesting learning the importance of this viewport meta tag to make the
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-![Responsive landing page](/assets/wintersolsticelandingpage-1.gif)
+![Responsive landing page](/assets/landingpage-1.gif)
 
 **Step 2: Switching between tabs**
+
+This second step involved using javascript to toggle the display of each section depending on which navigation link was clicked/active. This gives it the interactivity of navigating between different pages
+
+![Responsive landing page](/assets/landingpage-2.gif)
 
 **Step 3: Making it more beautiful**
