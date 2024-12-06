@@ -6,13 +6,15 @@ _This is a submission for [Frontend Challenge - December Edition, Glam Up My Mar
 
 ## What I Built
 
-I created an interactive and responsive landing page about the Winter Solstice
-
-<!-- Tell us about your landing page and what you were looking to achieve. -->
+I created an interactive and responsive landing page about the Winter Solstice.
 
 ## Demo
 
-<!-- Show us your project! You can directly embed an editor into this post (see the FAQ section from the challenge page) or you can share an image of your project and share a public link to the code. -->
+![Winter Solstice](/assets/winter-solstice.png)
+
+Have a peek at the [code](https://github.com/ladeoshodi/winter-solstice)
+
+View [live](TBD)
 
 ## Journey
 
@@ -26,15 +28,19 @@ It was interesting learning the importance of this viewport meta tag to make the
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-![Responsive landing page](/assets/landingpage-1.gif)
+![Responsive landing page 1](/assets/landingpage-1.gif)
 
 **Step 2: Switching between tabs**
 
 This second step involved using javascript to toggle the display of each section depending on which navigation link was clicked/active. This gives it the interactivity of navigating between different pages
 
-![Responsive landing page](/assets/landingpage-2.gif)
+![Responsive landing page 2](/assets/landingpage-2.gif)
 
 **Step 3: Making it more beautiful**
+
+For the last step I assigned various background images to each section to make it more interesting
+
+![Responsive landing page 3](/assets/landingpage-3.gif)
 
 ### Attributes
 
