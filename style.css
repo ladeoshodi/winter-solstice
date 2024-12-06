@@ -46,7 +46,13 @@ a {
 }
 
 #main-nav ul li:hover {
-  background-color: #555;
+  background-color: #4d5a93;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #4d5a93;
+  border-radius: 5px;
 }
 
 #main-footer {
