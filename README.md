@@ -14,7 +14,7 @@ I created an interactive and responsive landing page about the Winter Solstice.
 
 Have a peek at the [code](https://github.com/ladeoshodi/winter-solstice)
 
-View [live](TBD)
+View [live](https://ladeoshodi.github.io/winter-solstice/)
 
 ## Journey
 

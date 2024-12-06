@@ -15,7 +15,7 @@ body {
     "main"
     "footer";
 
-  background-image: url("/assets/white-tree-fabrice-villard.jpg");
+  background-image: url("./assets/white-tree-fabrice-villard.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
