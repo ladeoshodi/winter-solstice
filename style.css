@@ -14,6 +14,10 @@ body {
     "header"
     "main"
     "footer";
+
+  background-image: url("/assets/white-tree-fabrice-villard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 ul {
@@ -43,6 +47,7 @@ a {
 
 #main-nav ul li {
   padding: 10px;
+  transition: background-color 1.2s ease-in-out;
 }
 
 #main-nav ul li:hover {
@@ -63,12 +68,17 @@ a {
   padding: 10px 0;
 }
 
-#introduction {
+body section {
   grid-area: main;
   text-align: center;
   height: 72vh;
   padding: 20px 50px;
   overflow: scroll;
+  background-color: #4d3737ba;
+  color: #faf7f4;
+  font-size: 1.4rem;
+  margin-bottom: -12px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* hide each section by default */
@@ -77,12 +87,7 @@ a {
 #celebrations,
 #traditions,
 #conclusion {
-  grid-area: main;
   display: none;
-  text-align: center;
-  height: 72vh;
-  padding: 20px 50px;
-  overflow: scroll;
 }
 
 @media screen and (max-width: 600px) {
