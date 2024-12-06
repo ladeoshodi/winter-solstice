@@ -7,6 +7,9 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-bottom: 50px;
 }
 
 ul {
@@ -42,10 +45,22 @@ a {
 }
 
 #main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px 0;
+}
+
+/* hide each section by default */
+#science,
+#hemispheres,
+#celebrations,
+#traditions,
+#conclusion {
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
