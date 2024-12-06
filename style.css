@@ -9,7 +9,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   min-height: 100vh;
-  padding-bottom: 50px;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 
 ul {
@@ -24,6 +28,7 @@ a {
 }
 
 #main-header {
+  grid-area: header;
   background-color: #333;
   color: #fff;
   padding: 10px 0;
@@ -45,9 +50,7 @@ a {
 }
 
 #main-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  grid-area: footer;
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -55,13 +58,11 @@ a {
 }
 
 #introduction {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  padding: 0 50px;
-  margin-bottom: 70px;
+  grid-area: main;
+  text-align: center;
+  height: 72vh;
+  padding: 20px 50px;
+  overflow: scroll;
 }
 
 /* hide each section by default */
@@ -70,13 +71,12 @@ a {
 #celebrations,
 #traditions,
 #conclusion {
+  grid-area: main;
   display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  padding: 0 50px;
-  margin-bottom: 70px;
+  text-align: center;
+  height: 72vh;
+  padding: 20px 50px;
+  overflow: scroll;
 }
 
 @media screen and (max-width: 600px) {
