@@ -30,11 +30,11 @@ function setActiveLink(e) {
 function switchBGImage() {
   const bgImages = {
     introduction: "url('/assets/white-tree-fabrice-villard.jpg')",
-    science: "url('./assets/winter-eskimo.jpg')",
-    hemispheres: "url('./assets/virtual-reality.jpg')",
-    celebrations: "url('./assets/snow-ball.jpg')",
-    traditions: "url('./assets/winter-people.jpg')",
-    conclusion: "url('./assets/woman-eskimo.jpg')",
+    science: "url('assets/winter-eskimo.jpg')",
+    hemispheres: "url('assets/virtual-reality.jpg')",
+    celebrations: "url('assets/snow-ball.jpg')",
+    traditions: "url('assets/winter-people.jpg')",
+    conclusion: "url('assets/woman-eskimo.jpg')",
   };
 
   bodyEl.style.backgroundImage = bgImages[nextSection.id];
